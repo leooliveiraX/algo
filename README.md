@@ -1,4 +1,4 @@
-# Data Structures and Algorithms in Python
+# Data Structures and Algorithms (DSA) in Python
 
 This repository contains implementations of various data structures and algorithms in Python. It serves as a learning resource and reference for common computer science concepts.
 
