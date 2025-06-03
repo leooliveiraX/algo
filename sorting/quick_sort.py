@@ -1,4 +1,8 @@
-# Quick sort -> O(n log n) time complexity, O(log n) space complexity
+# Quick sort is a sorting algorithm that uses a pivot to partition the array into two parts
+
+# Time complexity: O(n log n)
+# Space complexity: O(log n)
+
 def quick_sort(arr):
     # Base case
     if len(arr) <= 1:
@@ -16,8 +20,8 @@ def quick_sort(arr):
     return quick_sort(left) + [pivot] + quick_sort(right)
 
 # Test cases
-print(quick_sort([3, 6, 8, 10, 1, 2, 1])) # [1, 1, 2, 3, 6, 8, 10]
-print(quick_sort([1, 2, 3, 4, 5])) # [1, 2, 3, 4, 5]
-print(quick_sort([5, 4, 3, 2, 1])) # [1, 2, 3, 4, 5]
-print(quick_sort([])) # []
-print(quick_sort([1])) # [1]
+print(quick_sort([3, 6, 8, 10, 1, 2, 1])) # Output: [1, 1, 2, 3, 6, 8, 10]
+print(quick_sort([1, 2, 3, 4, 5])) # Output: [1, 2, 3, 4, 5]
+print(quick_sort([5, 4, 3, 2, 1])) # Output: [1, 2, 3, 4, 5]
+print(quick_sort([])) # Output: []
+print(quick_sort([1])) # Output: [1]

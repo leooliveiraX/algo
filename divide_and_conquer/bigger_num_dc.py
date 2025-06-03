@@ -11,7 +11,7 @@ def bigger_num(arr: List[int]) -> int:
     return arr[0] if arr[0] > sub_max else sub_max
 
 # Test cases
-print(bigger_num([1, 2, 3, 4, 5])) # 5
-print(bigger_num([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) # 10
-print(bigger_num([10, 2, 3, 4, 5])) # 10
-print(bigger_num([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) # 10
+print(bigger_num([1, 2, 3, 4, 5])) # Output: 5
+print(bigger_num([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) # Output: 10
+print(bigger_num([10, 2, 3, 4, 5])) # Output: 10
+print(bigger_num([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) # Output: 10

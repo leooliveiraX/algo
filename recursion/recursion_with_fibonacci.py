@@ -1,3 +1,12 @@
+# The fibonacci function is a recursive function that calculates the nth number in the fibonacci sequence
+# The fibonacci sequence is a sequence of numbers where each number is the sum of the two preceding ones, starting from 0 and 1
+
+# Example of the fibonacci sequence:
+# 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
+
+# Time complexity: O(2^n)
+# Space complexity: O(n)
+
 def fibonacci(n):
     # Base case 1: if n is 0, return 0
     if n <= 0:
@@ -17,11 +26,3 @@ print(fibonacci(5))  # Output: 5
 print(fibonacci(10))  # Output: 55
 print(fibonacci(12))  # Output: 144
 
-# The time complexity of the fibonacci function is O(2^n)
-# The space complexity of the fibonacci function is O(n)
-
-# The fibonacci function is a recursive function that calculates the nth number in the fibonacci sequence
-# The fibonacci sequence is a sequence of numbers where each number is the sum of the two preceding ones, starting from 0 and 1
-
-# Example of the fibonacci sequence:
-# 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...

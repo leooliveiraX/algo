@@ -1,10 +1,12 @@
 # Binary search is a search algorithm that finds the position of a target value within a sorted array
+
 # It compares the target value to the middle element of the array
 # If the target value is equal to the middle element, the index of the middle element is returned
 # If the target value is less than the middle element, the search continues in the left half of the array
 # If the target value is greater than the middle element, the search continues in the right half of the array
-# The time complexity of binary search is O(log2 n)
-# The space complexity of binary search is O(1)
+
+# Time complexity: O(log2 n)
+# Space complexity: O(1)
 
 def binary_search(arr, target):
     left = 0

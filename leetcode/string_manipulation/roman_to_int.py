@@ -1,7 +1,9 @@
-# https://leetcode.com/problems/roman-to-integer/
+# Problem #13: Roman to Integer - https://leetcode.com/problems/roman-to-integer/
 # Given a roman numeral, convert it to an integer.
-# O(n) time complexity
-# O(1) space complexity
+
+# Time complexity: O(n)
+# Space complexity: O(1)
+
 class Solution:
     dictionary = {
         "I":1,
